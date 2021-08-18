@@ -1,0 +1,93 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.plant-details{
+    width: 80rem;
+    min-height: 60rem;
+    background-color:#CBCBA9;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.plant-details__container{
+    background: #fff;
+    /* mo vien xung quanh */
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.plant-details__header{
+    padding: 2rem;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #eee;
+    align-items:center;
+}
+.plant-details__back{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #999;
+    font-size: 1.5rem;
+}
+.plant-details__back span{
+    margin-left: 1.5rem;
+}
+.plant-details__like{
+   font-size: 2rem;
+}
+.plant-details__content{
+    display: flex;
+}
+.plant-details__content > div {
+    padding: 4rem;
+}
+.plant-details__image{
+    width: 48%;
+}
+.plant-details__image img{
+    width: 100%;
+}
+.plant-details__info{
+    width: 68%;
+    /* border-left: 1px solid; */
+    float: left;
+}
+
+.plant-details__title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.plant-details__category{
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.plant-details__price{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    display: block;
+}
+.plant-details__desc{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 3rem;
+    line-height:1.6;
+}
+.plant-details__btn{
+    outline: none;
+    min-width: 15rem;
+    padding: 1rem 3rem;
+
+    font-size: 1.4em;
+    text-transform: uppercase;
+    border: 1px solid currentColor;
+    cursor: pointer;
+    margin-right: 1rem;
+}
